@@ -1,0 +1,17 @@
+{
+  "name": "happy-reading-club-tests",
+  "version": "1.0.0",
+  "description": "happy-reading-club-tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "appium": "^2.17.1",
+    "webdriverio": "^9.12.4"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "user": "YOUR_USERNAME",
+    "key": "YOUR_ACCESS_KEY",
+    "capabilities": [
+      {
+        "platformName": "Android",
+        "platformVersion": "9.0",
+        "deviceName": "Google Pixel 3",
+        "app": "bs://<app-id>", // Replace with your app_url
+        "project": "Happy Reading Club",
+        "build": "Regression Test Build",
+        "name": "Pixel 3 Test",
+        "browserstack.debug": true
+      },
+      {
+        "platformName": "iOS",
+        "platformVersion": "14",
+        "deviceName": "iPhone 11",
+        "app": "bs://<app-id>", // Replace with your app_url
+        "project": "Happy Reading Club",
+        "build": "Regression Test Build",
+        "name": "iPhone 11 Test",
+        "browserstack.debug": true
+      }
+    ],
+    "server": "hub-cloud.browserstack.com"
+  }
